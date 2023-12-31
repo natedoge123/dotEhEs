@@ -1,13 +1,32 @@
 
-.titleContainer {
+:root{
+	--back: #292930;	/* background color	*/
+	--text: #fff5ee;	/* text color		*/
+	--alt1: #f5f5f5;	/* alternative color 1	*/
+	--alt2: #292930;	/* alternative color 2	*/
+}
+body {
+	background: var(--back);
+	color: var(--text);
+	font-family: serif;
+
+}
+a {
+	color: var(--text);
 
 }
 
+#titleContainer {
+	text-align: center;
 
-.bar {
+}
+
+#bar {
+	text-align: center;
+}
+
+#bodyContainer {
+	text-align: center;
 
 }
 
-.bodyContainer {
-
-}
