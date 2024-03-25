@@ -1,32 +1,61 @@
-
-:root{
-	--back: #292930;	/* background color	*/
-	--text: #fff5ee;	/* text color		*/
-	--alt1: #f5f5f5;	/* alternative color 1	*/
-	--alt2: #292930;	/* alternative color 2	*/
+:root {
+	--back: #292930;
+	/* background color	*/
+	--text: #e0e0e0;
+	/* text color		*/
+	--alt1: #0d699c;
+	/* alternative color 1	*/
+	--alt2: #8c600d;
+	/* alternative color 2	*/
 }
+
 body {
 	background: var(--back);
 	color: var(--text);
 	font-family: serif;
 
 }
-a {
-	color: var(--text);
+
+h1 {
+	font-size: 3rem;
+
+}
+
+p {
+	font-size: 1rem;
 
 }
 
 #titleContainer {
 	text-align: center;
+}
+
+#titleContainer a {
+	color: var(--text);
+	text-decoration: none;
+	font-size: 1.25rem;
 
 }
 
 #bar {
+	display: flex;
+	justify-content: center;
 	text-align: center;
 }
+
+.barItem {
+	text-align: center;
+	padding: 1%;
+}
+
+.barItem a {
+	color: var(--text);
+	text-decoration: none;
+	font-size: 1.25rem;
+}
+
 
 #bodyContainer {
 	text-align: center;
 
 }
-
