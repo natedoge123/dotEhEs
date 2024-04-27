@@ -61,10 +61,14 @@ p {
 
 #bodyContainer {
 	text-align: center;
+	justify-content: center;
 
 }
 
 #bodyContainer img {
-	text-align: center;
-
+	border-radius: 5px;
+	width: 40%;
+	min-width: 40%;
+	max-width: 70%;
+	margin: auto;
 }
