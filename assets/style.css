@@ -54,8 +54,17 @@ p {
 	font-size: 1.25rem;
 }
 
+.barItem a:hover {
+	text-decoration: underline;
+
+}
 
 #bodyContainer {
+	text-align: center;
+
+}
+
+#bodyContainer img {
 	text-align: center;
 
 }
