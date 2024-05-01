@@ -56,20 +56,22 @@ p {
 
 .barItem a:hover {
 	text-decoration: underline;
+	font-weight: bold;
 
 }
 
 #bodyContainer {
 	text-align: center;
 	justify-content: center;
+	height: 90%;
 
 }
 
 #bodyContainer img {
-	border-radius: 5px;
-	width: 40%;
+	border-radius: 10px;
+	width: 80%;
 	min-width: 40%;
-	max-width: 70%;
+	max-width: 80%;
 	margin: auto;
 }
 
@@ -81,5 +83,14 @@ p {
 
 #bodyContainer a:hover {
 	text-decoration: underline;
+
+}
+
+.bodyItem {
+	justify-content: center;
+}
+
+.bodyItem h1 {
+	font-size: 1.5iem;
 
 }
