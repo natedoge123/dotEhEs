@@ -12,7 +12,7 @@
 body {
 	background: var(--back);
 	color: var(--text);
-	font-family: serif;
+	font-family: sans-serif;
 
 }
 
